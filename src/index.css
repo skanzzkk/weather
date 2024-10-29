@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(114, 128, 162);
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 5px solid #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #4479a5;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 175, 233, .5);
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3a5087;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #1b244f;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #181818;
+    font-weight:lighter;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    border: 5px solid #53596d; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #5f6c86; 
+    width: 500px; 
+    margin: auto; 
+}
